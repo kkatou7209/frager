@@ -1,0 +1,14 @@
+{
+    "name": "frag",
+    "dockerComposeFile": "./compose.yml",
+    "service": "node",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-next",
+                "github.copilot"
+            ]
+        }
+    }
+}
