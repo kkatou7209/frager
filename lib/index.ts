@@ -1,0 +1,1 @@
+export { Frager } from '@/api/frager';

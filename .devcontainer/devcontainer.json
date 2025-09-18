@@ -1,5 +1,5 @@
 {
-    "name": "frag",
+    "name": "frager",
     "dockerComposeFile": "./compose.yml",
     "service": "node",
     "workspaceFolder": "/workspace",

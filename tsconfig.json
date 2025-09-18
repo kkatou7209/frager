@@ -9,7 +9,9 @@
     },
 
     "module": "esnext",
+    "lib": ["ESNext"],
     "target": "esnext",
+    "moduleResolution": "bundler",
 
     "sourceMap": true,
     "declaration": true,
