@@ -9,7 +9,7 @@
     },
 
     "module": "esnext",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "target": "esnext",
     "moduleResolution": "bundler",
 
