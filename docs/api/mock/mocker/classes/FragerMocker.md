@@ -6,7 +6,7 @@
 
 # Class: FragerMocker
 
-Defined in: mock/mocker.ts:12
+Defined in: [mock/mocker.ts:12](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/mock/mocker.ts#L12)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: mock/mocker.ts:12
 
 > **new FragerMocker**(`base`, `routes`): `FragerMocker`
 
-Defined in: mock/mocker.ts:18
+Defined in: [mock/mocker.ts:18](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/mock/mocker.ts#L18)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: mock/mocker.ts:18
 
 > **handle**(`request`): `Promise`\<`Response`\>
 
-Defined in: mock/mocker.ts:30
+Defined in: [mock/mocker.ts:30](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/mock/mocker.ts#L30)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: mock/mocker.ts:30
 
 > **hasRoute**(`method`, `url`): `boolean`
 
-Defined in: mock/mocker.ts:23
+Defined in: [mock/mocker.ts:23](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/mock/mocker.ts#L23)
 
 #### Parameters
 

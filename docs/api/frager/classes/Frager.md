@@ -6,7 +6,7 @@
 
 # Class: Frager
 
-Defined in: [frager.ts:9](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L9)
+Defined in: [frager.ts:9](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L9)
 
 HTTP client class in Frager.
 
@@ -16,7 +16,7 @@ HTTP client class in Frager.
 
 > **new Frager**(`config`): `Frager`
 
-Defined in: [frager.ts:15](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L15)
+Defined in: [frager.ts:15](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L15)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [frager.ts:15](https://github.com/kkatou7209/frager/blob/c0b00a6c3fb
 
 > **after**(`callback`): `Frager`
 
-Defined in: [frager.ts:123](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L123)
+Defined in: [frager.ts:123](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L123)
 
 Create new instance with setting new call back function to execute 
 after request.
@@ -57,7 +57,7 @@ Call back function to execute after request.
 
 > **base**(`url`): `Frager`
 
-Defined in: [frager.ts:46](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L46)
+Defined in: [frager.ts:46](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L46)
 
 Create new instance with new base URL.
 
@@ -79,7 +79,7 @@ New base URL.
 
 > **before**(`callback`): `Frager`
 
-Defined in: [frager.ts:114](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L114)
+Defined in: [frager.ts:114](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L114)
 
 Create new instance with setting new call back function to execute 
 before request.
@@ -102,7 +102,7 @@ Call back function to execute before request.
 
 > **cache**(`mode`): `Frager`
 
-Defined in: [frager.ts:77](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L77)
+Defined in: [frager.ts:77](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L77)
 
 Create new instance with enabling or disabling mock.
 
@@ -124,7 +124,7 @@ Cache mode.
 
 > **client**(): [`FragerRequester`](../../requester/classes/FragerRequester.md)
 
-Defined in: [frager.ts:32](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L32)
+Defined in: [frager.ts:32](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L32)
 
 Get HTTP client.
 
@@ -138,7 +138,7 @@ Get HTTP client.
 
 > **clone**(): `Frager`
 
-Defined in: [frager.ts:37](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L37)
+Defined in: [frager.ts:37](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L37)
 
 Create cloned instance.
 
@@ -152,7 +152,7 @@ Create cloned instance.
 
 > **credentials**(`mode`): `Frager`
 
-Defined in: [frager.ts:69](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L69)
+Defined in: [frager.ts:69](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L69)
 
 Create new instance with setting credentials mode.
 
@@ -174,7 +174,7 @@ Credentials mode.
 
 > **disableMock**(): `Frager`
 
-Defined in: [frager.ts:91](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L91)
+Defined in: [frager.ts:91](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L91)
 
 Create new instance with disabling mock.
 
@@ -188,7 +188,7 @@ Create new instance with disabling mock.
 
 > **enableMock**(): `Frager`
 
-Defined in: [frager.ts:84](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L84)
+Defined in: [frager.ts:84](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L84)
 
 Create new instance with enabling mock.
 
@@ -202,7 +202,7 @@ Create new instance with enabling mock.
 
 > **header**(`name`, `value`): `Frager`
 
-Defined in: [frager.ts:55](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L55)
+Defined in: [frager.ts:55](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L55)
 
 Create new instance with replacing or setting new header.
 
@@ -230,7 +230,7 @@ Header value.
 
 > **headers**(`headers`): `Frager`
 
-Defined in: [frager.ts:99](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L99)
+Defined in: [frager.ts:99](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L99)
 
 Create new instance with replacing and setting new headers.
 
@@ -252,7 +252,7 @@ Headers to set or replace.
 
 > `static` **create**(): [`FragerBuilder`](../../builder/classes/FragerBuilder.md)
 
-Defined in: [frager.ts:22](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L22)
+Defined in: [frager.ts:22](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L22)
 
 Get Farger builder.
 
@@ -266,7 +266,7 @@ Get Farger builder.
 
 > `static` **mocker**(): [`FragerMockerBuilder`](../../mock/builder/classes/FragerMockerBuilder.md)
 
-Defined in: [frager.ts:27](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/frager.ts#L27)
+Defined in: [frager.ts:27](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/frager.ts#L27)
 
 Get FragerMocker builder.
 

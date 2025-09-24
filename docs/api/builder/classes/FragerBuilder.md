@@ -6,7 +6,7 @@
 
 # Class: FragerBuilder
 
-Defined in: [builder.ts:9](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L9)
+Defined in: [builder.ts:9](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L9)
 
 Builder of Frager.
 
@@ -26,7 +26,7 @@ Builder of Frager.
 
 > **after**(`callback`): `FragerBuilder`
 
-Defined in: [builder.ts:78](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L78)
+Defined in: [builder.ts:78](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L78)
 
 Register callback after each request.
 
@@ -46,7 +46,7 @@ Register callback after each request.
 
 > **base**(`url`): `FragerBuilder`
 
-Defined in: [builder.ts:16](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L16)
+Defined in: [builder.ts:16](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L16)
 
 Set base URL of all requests.
 
@@ -66,7 +66,7 @@ Set base URL of all requests.
 
 > **before**(`callback`): `FragerBuilder`
 
-Defined in: [builder.ts:70](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L70)
+Defined in: [builder.ts:70](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L70)
 
 Register callback before each request.
 
@@ -86,7 +86,7 @@ Register callback before each request.
 
 > **build**(): [`Frager`](../../frager/classes/Frager.md)
 
-Defined in: [builder.ts:86](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L86)
+Defined in: [builder.ts:86](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L86)
 
 Create new Frager instance with configured settings.
 
@@ -100,7 +100,7 @@ Create new Frager instance with configured settings.
 
 > **cache**(`mode`): `FragerBuilder`
 
-Defined in: [builder.ts:54](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L54)
+Defined in: [builder.ts:54](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L54)
 
 Set cache mode.
 
@@ -120,7 +120,7 @@ Set cache mode.
 
 > **credentials**(`mode`): `FragerBuilder`
 
-Defined in: [builder.ts:46](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L46)
+Defined in: [builder.ts:46](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L46)
 
 Set credentials mode.
 
@@ -140,7 +140,7 @@ Set credentials mode.
 
 > **enableMock**(): `FragerBuilder`
 
-Defined in: [builder.ts:62](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L62)
+Defined in: [builder.ts:62](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L62)
 
 Enable mocking.
 
@@ -154,7 +154,7 @@ Enable mocking.
 
 > **header**(`name`, `value`): `FragerBuilder`
 
-Defined in: [builder.ts:24](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L24)
+Defined in: [builder.ts:24](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L24)
 
 Set new header.
 
@@ -178,7 +178,7 @@ Set new header.
 
 > **headers**(`headers`): `FragerBuilder`
 
-Defined in: [builder.ts:35](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L35)
+Defined in: [builder.ts:35](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L35)
 
 Set new headers.
 
@@ -198,7 +198,7 @@ Set new headers.
 
 > **mocker**(`mocker`): `FragerBuilder`
 
-Defined in: [builder.ts:91](https://github.com/kkatou7209/frager/blob/c0b00a6c3fbbedb9742713d088b4bb419a899f31/lib/api/builder.ts#L91)
+Defined in: [builder.ts:91](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/builder.ts#L91)
 
 Set mocker instance.
 

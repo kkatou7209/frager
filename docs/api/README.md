@@ -10,7 +10,7 @@
 
 - API methods for each HTTP verb
 - Support for common request configuration
-- Request mocking(WIP)
+- Request mocking
 
 ## Installation
 
