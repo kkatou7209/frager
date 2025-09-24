@@ -179,6 +179,18 @@ describe.concurrent('lib/api/frager test', () => {
             http.post('http://localhost/user', () => {
                 return HttpResponse.json({id: 2, name: 'User 2'}, {status: 201});
             }),
+            http.put('http://localhost/user/2', () => {
+                return HttpResponse.json({id: 2, name: 'User 2 Updated'}, {status: 200});
+            }),
+            http.delete('http://localhost/user/2', () => {
+                return HttpResponse.json(null, {status: 204});
+            }),
+            http.head('http://localhost/user/2', () => {
+                return new Response(null, {status: 204});
+            }),
+            http.patch('http://localhost/user/2', () => {
+                return HttpResponse.json({id: 2, name: 'User 2 Patched'}, {status: 200});
+            }),
         );
 
         server.listen();

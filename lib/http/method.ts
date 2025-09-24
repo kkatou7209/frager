@@ -3,6 +3,7 @@ export const methods = [
     'POST',
     'PUT',
     'DELETE',
+    'PATCH',
     'HEAD',
     'TRACE',
     'OPTIONS',

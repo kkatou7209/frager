@@ -106,6 +106,17 @@ export class FragerRequester {
     }
 
     /**
+     * Request with PATCH.
+     * @param {string} url Request URL.
+     */
+    public patch = (url: string) => {
+
+        const request = this.createRequest(url, 'PATCH', this._body, this._params);
+
+        return this.request(request);
+    }
+
+    /**
      * Request with DELETE.
      * @param {string} url Request URL.
      */

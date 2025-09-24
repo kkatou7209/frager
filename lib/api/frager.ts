@@ -63,6 +63,19 @@ export class Frager {
     }
 
     /**
+     * Create new instance with replacing and setting new headers.
+     */
+    public headers = (headers: Record<string, string>): Frager => {
+        return this.cloneWithOverriding({
+            ...this._config,
+            headers: {
+                ...this._config.headers,
+                ...headers,
+            }
+        });
+    }
+
+    /**
      * Create new instance with setting credentials mode.
      * @param {RequestCredentials} mode Credentials mode.
      */
@@ -90,20 +103,6 @@ export class Frager {
      */
     public disableMock = (): Frager => {
         return this.cloneWithOverriding({...this._config, mock: false});
-    }
-
-    /**
-     * Create new instance with replacing and setting new headers.
-     * @param {Record<string, string>} headers Headers to set or replace.
-     */
-    public headers = (headers: Record<string, string>): Frager => {
-        return this.cloneWithOverriding({
-            ...this._config,
-            headers: {
-                ...this._config.headers,
-                ...headers,
-            }
-        });
     }
 
     /**
