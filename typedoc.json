@@ -1,6 +1,6 @@
 {
-    "entryPoints": ["lib/api/**/*.ts"],
-    "exclude": ["**/*.spec.ts"],
+    "entryPoints": ["lib/api/**/*.ts", "lib/config/**/*.ts"],
+    "exclude": ["**/*.spec.ts", "**/index.ts"],
     "out": "docs/api",
     "plugin": ["typedoc-plugin-markdown"],
     "hideGenerator": true,

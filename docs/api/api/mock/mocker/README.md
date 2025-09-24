@@ -1,10 +1,10 @@
-[**frager v0.2.0**](../../README.md)
+[**frager v0.2.0**](../../../README.md)
 
 ***
 
-[frager](../../modules.md) / mock/mocker
+[frager](../../../modules.md) / api/mock/mocker
 
-# mock/mocker
+# api/mock/mocker
 
 ## Classes
 

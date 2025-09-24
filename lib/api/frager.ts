@@ -2,6 +2,7 @@ import type { FragerAfterCallback, FragerBeforeCallback, FragerConfig, RequestRe
 import { FragerBuilder } from '@/api/builder';
 import { FragerRequester } from '@/api/requester';
 import { FragerMockerBuilder } from '@/api/mock/builder';
+import type { FragerMocker } from './mock/mocker';
 
 /**
  * HTTP client class in Frager.
@@ -133,6 +134,10 @@ export class Frager {
 
     public keepalive = (keepalive: boolean): Frager => {
         return this.cloneWithOverriding({...this._config, keepalive});
+    }
+
+    public mock = (mocker: FragerMocker): Frager => {
+        return this.cloneWithOverriding({...this._config, mocker});
     }
 
     /**

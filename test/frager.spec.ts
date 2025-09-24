@@ -138,6 +138,12 @@ describe.concurrent('lib/api/frager test', () => {
                             'Content-Type': 'application/json; charset=utf-8;',
                         }
                     }))
+                    .onGet('/user/{id}', () => new Response(JSON.stringify({id: 1, name: 'User 1'}), {
+                        status: 200,
+                        headers: {
+                            'Content-Type': 'application/json; charset=utf-8;',
+                        }
+                    }))
                     .onPost('/user', () => new Response(JSON.stringify({id: 2, name: 'User 2'}), {
                         status: 201,
                         headers: {
@@ -157,6 +163,15 @@ describe.concurrent('lib/api/frager test', () => {
         expect(getResponse.headers.get('Content-Type')).toBe('application/json; charset=utf-8;');
 
         let data = await getResponse.json();
+        expect(data).toEqual({id: 1, name: 'User 1'});
+        
+        const getByIdResponse = await client
+            .get('/user/1');
+
+        expect(getByIdResponse.status).toBe(200);
+        expect(getByIdResponse.headers.get('Content-Type')).toBe('application/json; charset=utf-8;');
+
+        data = await getByIdResponse.json();
         expect(data).toEqual({id: 1, name: 'User 1'});
 
         const postResponse = await client
