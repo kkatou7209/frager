@@ -6,7 +6,7 @@
 
 # Class: Frager
 
-Defined in: [api/frager.ts:9](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L9)
+Defined in: [api/frager.ts:10](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L10)
 
 HTTP client class in Frager.
 
@@ -16,7 +16,7 @@ HTTP client class in Frager.
 
 > **new Frager**(`config`): `Frager`
 
-Defined in: [api/frager.ts:15](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L15)
+Defined in: [api/frager.ts:16](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L16)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [api/frager.ts:15](https://github.com/kkatou7209/frager/blob/719f61c
 
 > **after**(`callback`): `Frager`
 
-Defined in: [api/frager.ts:166](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L166)
+Defined in: [api/frager.ts:171](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L171)
 
 Create new instance with setting new call back function to execute 
 after request.
@@ -57,7 +57,7 @@ Call back function to execute after request.
 
 > **base**(`url`): `Frager`
 
-Defined in: [api/frager.ts:46](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L46)
+Defined in: [api/frager.ts:47](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L47)
 
 Create new instance with new base URL.
 
@@ -79,7 +79,7 @@ New base URL.
 
 > **before**(`callback`): `Frager`
 
-Defined in: [api/frager.ts:157](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L157)
+Defined in: [api/frager.ts:162](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L162)
 
 Create new instance with setting new call back function to execute 
 before request.
@@ -102,7 +102,7 @@ Call back function to execute before request.
 
 > **cache**(`mode`): `Frager`
 
-Defined in: [api/frager.ts:130](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L130)
+Defined in: [api/frager.ts:131](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L131)
 
 Create new instance with enabling or disabling mock.
 
@@ -124,7 +124,7 @@ Cache mode.
 
 > **client**(): [`FragerRequester`](../../requester/classes/FragerRequester.md)
 
-Defined in: [api/frager.ts:32](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L32)
+Defined in: [api/frager.ts:33](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L33)
 
 Get HTTP client.
 
@@ -138,7 +138,7 @@ Get HTTP client.
 
 > **clone**(): `Frager`
 
-Defined in: [api/frager.ts:37](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L37)
+Defined in: [api/frager.ts:38](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L38)
 
 Create cloned instance.
 
@@ -152,7 +152,7 @@ Create cloned instance.
 
 > **credentials**(`mode`): `Frager`
 
-Defined in: [api/frager.ts:122](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L122)
+Defined in: [api/frager.ts:123](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L123)
 
 Create new instance with setting credentials mode.
 
@@ -174,7 +174,7 @@ Credentials mode.
 
 > **disableMock**(): `Frager`
 
-Defined in: [api/frager.ts:148](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L148)
+Defined in: [api/frager.ts:153](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L153)
 
 Create new instance with disabling mock.
 
@@ -188,7 +188,7 @@ Create new instance with disabling mock.
 
 > **enableMock**(): `Frager`
 
-Defined in: [api/frager.ts:141](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L141)
+Defined in: [api/frager.ts:146](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L146)
 
 Create new instance with enabling mock.
 
@@ -202,7 +202,7 @@ Create new instance with enabling mock.
 
 > **header**(`name`, `value`): `Frager`
 
-Defined in: [api/frager.ts:55](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L55)
+Defined in: [api/frager.ts:56](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L56)
 
 Create new instance with replacing or setting new header.
 
@@ -230,7 +230,7 @@ Header value.
 
 > **headers**(`headers`): `Frager`
 
-Defined in: [api/frager.ts:68](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L68)
+Defined in: [api/frager.ts:69](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L69)
 
 Create new instance with replacing and setting new headers.
 
@@ -250,7 +250,7 @@ Create new instance with replacing and setting new headers.
 
 > **keepalive**(`keepalive`): `Frager`
 
-Defined in: [api/frager.ts:134](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L134)
+Defined in: [api/frager.ts:135](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L135)
 
 #### Parameters
 
@@ -264,11 +264,29 @@ Defined in: [api/frager.ts:134](https://github.com/kkatou7209/frager/blob/719f61
 
 ***
 
+### mock()
+
+> **mock**(`mocker`): `Frager`
+
+Defined in: [api/frager.ts:139](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L139)
+
+#### Parameters
+
+##### mocker
+
+[`FragerMocker`](../../mock/mocker/classes/FragerMocker.md)
+
+#### Returns
+
+`Frager`
+
+***
+
 ### mode()
 
 > **mode**(`mode`): `Frager`
 
-Defined in: [api/frager.ts:82](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L82)
+Defined in: [api/frager.ts:83](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L83)
 
 Create new instance with setting request mode.
 
@@ -290,7 +308,7 @@ Request mode.
 
 > **prioprity**(`priority`): `Frager`
 
-Defined in: [api/frager.ts:90](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L90)
+Defined in: [api/frager.ts:91](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L91)
 
 Create new instance with setting request priority.
 
@@ -312,7 +330,7 @@ Request priority.
 
 > **redirect**(`redirect`): `Frager`
 
-Defined in: [api/frager.ts:98](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L98)
+Defined in: [api/frager.ts:99](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L99)
 
 Create new instance with setting request redirect mode.
 
@@ -334,7 +352,7 @@ Request redirect mode.
 
 > **referrer**(`referrer`): `Frager`
 
-Defined in: [api/frager.ts:106](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L106)
+Defined in: [api/frager.ts:107](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L107)
 
 Create new instance with setting request referrer.
 
@@ -356,7 +374,7 @@ Request referrer.
 
 > **referrerPolicy**(`policy`): `Frager`
 
-Defined in: [api/frager.ts:114](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L114)
+Defined in: [api/frager.ts:115](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L115)
 
 Create new instance with setting request referrer policy.
 
@@ -378,7 +396,7 @@ Referrer policy.
 
 > `static` **create**(): [`FragerBuilder`](../../builder/classes/FragerBuilder.md)
 
-Defined in: [api/frager.ts:22](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L22)
+Defined in: [api/frager.ts:23](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L23)
 
 Get Farger builder.
 
@@ -392,7 +410,7 @@ Get Farger builder.
 
 > `static` **mocker**(): [`FragerMockerBuilder`](../../mock/builder/classes/FragerMockerBuilder.md)
 
-Defined in: [api/frager.ts:27](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/frager.ts#L27)
+Defined in: [api/frager.ts:28](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/frager.ts#L28)
 
 Get FragerMocker builder.
 

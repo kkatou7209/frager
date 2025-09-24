@@ -8,7 +8,7 @@
 
 > **MockerRoute** = `object`
 
-Defined in: [api/mock/mocker.ts:7](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/mocker.ts#L7)
+Defined in: [api/mock/mocker.ts:7](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/mocker.ts#L7)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [api/mock/mocker.ts:7](https://github.com/kkatou7209/frager/blob/719
 
 > **callback**: [`MockerCallback`](MockerCallback.md)
 
-Defined in: [api/mock/mocker.ts:9](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/mocker.ts#L9)
+Defined in: [api/mock/mocker.ts:9](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/mocker.ts#L9)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [api/mock/mocker.ts:9](https://github.com/kkatou7209/frager/blob/719
 
 > **route**: `Route`
 
-Defined in: [api/mock/mocker.ts:8](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/mocker.ts#L8)
+Defined in: [api/mock/mocker.ts:8](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/mocker.ts#L8)

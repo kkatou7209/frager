@@ -125,6 +125,39 @@ frager.client()
     .post('/api/image');
 ```
 
+### Mocking
+
+To mock request, create mocker instance with the `mocker` method.
+
+```ts
+const mocker = Frager.mocker()
+    .base('https://api.example.com')
+    .onGet('/user/{id}', () => new Response({
+        body: JSON.stringify({
+            id: 123,
+            name: 'John Doe',
+        }),
+        status: 200,
+    }))
+    .onPost('/user', () => new Response({
+        body: JSON.stringify({
+            id: 124,
+            name: 'John Doe',
+        }),
+        status: 201,
+    }))
+    .build();
+```
+
+Register the mocker with the `mock` method.
+
+```ts
+const frager = Frager.create()
+    .mock(mocker)
+    .enableMock() // enable mock
+    .build();
+```
+
 ## API
 
 API documents are in [/docs/api](/docs/api/modules.md)

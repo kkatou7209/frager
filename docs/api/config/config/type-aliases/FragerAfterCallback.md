@@ -8,7 +8,7 @@
 
 > **FragerAfterCallback** = (`request`, `response`) => `Promise`\<`Response` \| `void`\> \| `Response` \| `void`
 
-Defined in: [config/config.ts:5](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/config/config.ts#L5)
+Defined in: [config/config.ts:5](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/config/config.ts#L5)
 
 ## Parameters
 

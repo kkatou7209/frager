@@ -6,7 +6,7 @@
 
 # Class: FragerMockerBuilder
 
-Defined in: [api/mock/builder.ts:4](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L4)
+Defined in: [api/mock/builder.ts:4](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L4)
 
 ## Constructors
 
@@ -24,7 +24,7 @@ Defined in: [api/mock/builder.ts:4](https://github.com/kkatou7209/frager/blob/71
 
 > **base**(`url`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:16](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L16)
+Defined in: [api/mock/builder.ts:16](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L16)
 
 Set base URL of all requests.
 
@@ -44,7 +44,7 @@ Set base URL of all requests.
 
 > **build**(): [`FragerMocker`](../../mocker/classes/FragerMocker.md)
 
-Defined in: [api/mock/builder.ts:112](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L112)
+Defined in: [api/mock/builder.ts:112](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L112)
 
 Create mocker instance.
 
@@ -58,7 +58,7 @@ Create mocker instance.
 
 > **onConnect**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:90](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L90)
+Defined in: [api/mock/builder.ts:90](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L90)
 
 Set mocker for CONNECT request
 
@@ -82,7 +82,7 @@ Set mocker for CONNECT request
 
 > **onDelete**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:57](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L57)
+Defined in: [api/mock/builder.ts:57](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L57)
 
 Set mocker for DELETE request
 
@@ -106,7 +106,7 @@ Set mocker for DELETE request
 
 > **onGet**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:24](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L24)
+Defined in: [api/mock/builder.ts:24](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L24)
 
 Set mocker for GET request.
 
@@ -130,7 +130,7 @@ Set mocker for GET request.
 
 > **onHead**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:68](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L68)
+Defined in: [api/mock/builder.ts:68](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L68)
 
 Set mocker for HEAD request
 
@@ -154,7 +154,7 @@ Set mocker for HEAD request
 
 > **onOptions**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:101](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L101)
+Defined in: [api/mock/builder.ts:101](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L101)
 
 Set mocker for OPTIONS request
 
@@ -178,7 +178,7 @@ Set mocker for OPTIONS request
 
 > **onPost**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:35](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L35)
+Defined in: [api/mock/builder.ts:35](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L35)
 
 Set mocker for POST request
 
@@ -202,7 +202,7 @@ Set mocker for POST request
 
 > **onPut**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:46](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L46)
+Defined in: [api/mock/builder.ts:46](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L46)
 
 Set mocker for PUT request
 
@@ -226,7 +226,7 @@ Set mocker for PUT request
 
 > **onTrace**(`path`, `callback`): `FragerMockerBuilder`
 
-Defined in: [api/mock/builder.ts:79](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/builder.ts#L79)
+Defined in: [api/mock/builder.ts:79](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/builder.ts#L79)
 
 Set mocker for TRACE request
 

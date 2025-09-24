@@ -6,7 +6,7 @@
 
 # Class: FragerMocker
 
-Defined in: [api/mock/mocker.ts:12](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/mocker.ts#L12)
+Defined in: [api/mock/mocker.ts:12](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/mocker.ts#L12)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [api/mock/mocker.ts:12](https://github.com/kkatou7209/frager/blob/71
 
 > **new FragerMocker**(`base`, `routes`): `FragerMocker`
 
-Defined in: [api/mock/mocker.ts:18](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/mocker.ts#L18)
+Defined in: [api/mock/mocker.ts:18](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/mocker.ts#L18)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [api/mock/mocker.ts:18](https://github.com/kkatou7209/frager/blob/71
 
 > **handle**(`request`): `Promise`\<`Response`\>
 
-Defined in: [api/mock/mocker.ts:30](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/mocker.ts#L30)
+Defined in: [api/mock/mocker.ts:30](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/mocker.ts#L30)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [api/mock/mocker.ts:30](https://github.com/kkatou7209/frager/blob/71
 
 > **hasRoute**(`method`, `url`): `boolean`
 
-Defined in: [api/mock/mocker.ts:23](https://github.com/kkatou7209/frager/blob/719f61cb03a1b552f429a15e5ed05d7e85a71494/lib/api/mock/mocker.ts#L23)
+Defined in: [api/mock/mocker.ts:23](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/mock/mocker.ts#L23)
 
 #### Parameters
 
