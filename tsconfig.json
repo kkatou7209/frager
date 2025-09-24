@@ -1,11 +1,11 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    "rootDir": "./lib",
+    "rootDir": ".",
     "outDir": "./dist",
-    "baseUrl": "lib",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["lib/*"]
     },
 
     "module": "esnext",
@@ -36,6 +36,6 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["lib"],
+  "include": ["lib", "test"],
   "exclude": ["node_modules", "dist"]
 }

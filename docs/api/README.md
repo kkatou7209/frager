@@ -1,3 +1,7 @@
+**frager v0.2.0**
+
+***
+
 # Frager
 
 **Frager** is a simple HTTP client library wraping [**Fetch API**](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
@@ -6,7 +10,7 @@
 
 - API methods for each HTTP verb
 - Support for common request configuration
-- Request mocking
+- Request mocking(WIP)
 
 ## Installation
 

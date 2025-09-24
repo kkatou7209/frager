@@ -1,0 +1,16 @@
+[**frager v0.2.0**](../../README.md)
+
+***
+
+[frager](../../modules.md) / mock/mocker
+
+# mock/mocker
+
+## Classes
+
+- [FragerMocker](classes/FragerMocker.md)
+
+## Type Aliases
+
+- [MockerCallback](type-aliases/MockerCallback.md)
+- [MockerRoute](type-aliases/MockerRoute.md)

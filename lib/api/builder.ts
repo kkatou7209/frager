@@ -1,6 +1,7 @@
 import type { FragerAfterCallback, FragerBeforeCallback, FragerConfig } from '@/config/config';
 import { defaultConfig } from '@/config/default';
-import { Frager } from './frager';
+import { Frager } from '@/api/frager';
+import { FragerMocker } from '@/api/mock/mocker';
 
 /**
  * Builder of Frager.
@@ -40,6 +41,22 @@ export class FragerBuilder {
     }
 
     /**
+     * Set credentials mode.
+     */
+    public credentials = (mode: RequestCredentials): FragerBuilder => {
+        this._config.credentials = mode;
+        return this;
+    }
+
+    /**
+     * Set cache mode.
+     */
+    public cache = (mode: RequestCache): FragerBuilder => {
+        this._config.cache = mode;
+        return this;
+    }
+
+    /**
      * Enable mocking.
      */
     public enableMock = (): FragerBuilder => {
@@ -50,8 +67,8 @@ export class FragerBuilder {
     /**
      * Register callback before each request.
      */
-    public beafore = (callback: FragerBeforeCallback): FragerBuilder => {
-        this._config.beafore = callback;
+    public before = (callback: FragerBeforeCallback): FragerBuilder => {
+        this._config.before = callback;
         return this;
     }
 
@@ -67,4 +84,12 @@ export class FragerBuilder {
      * Create new Frager instance with configured settings.
      */
     public build = () => new Frager({ ...this._config });
+
+    /**
+     * Set mocker instance.
+     */
+    public mocker = (mocker: FragerMocker): FragerBuilder => {
+        this._config.mocker = mocker;
+        return this;
+    }
 }

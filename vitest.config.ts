@@ -17,7 +17,8 @@ export default defineConfig({
                 'lib/vite-env.d.ts',
                 'lib/error.ts',
             ]
-        }
+        },
+        environment: 'jsdom',
     },
     resolve: {
         alias: {

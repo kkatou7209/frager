@@ -1,4 +1,4 @@
-export type FragerBody = BodyInit & Record<string, string> & Array<any>;
+export type FragerBody = BodyInit | Record<string, string> | Array<any>;
 
 export function toBody(body: FragerBody): BodyInit {
 
