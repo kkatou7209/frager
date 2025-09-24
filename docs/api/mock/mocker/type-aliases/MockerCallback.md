@@ -8,7 +8,7 @@
 
 > **MockerCallback** = (`request`) => `Response` \| `Promise`\<`Response`\>
 
-Defined in: [mock/mocker.ts:5](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/mock/mocker.ts#L5)
+Defined in: [mock/mocker.ts:5](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/mock/mocker.ts#L5)
 
 ## Parameters
 

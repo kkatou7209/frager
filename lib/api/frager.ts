@@ -1,4 +1,4 @@
-import type { FragerAfterCallback, FragerBeforeCallback, FragerConfig } from '@/config/config';
+import type { FragerAfterCallback, FragerBeforeCallback, FragerConfig, RequestReferrer } from '@/config/config';
 import { FragerBuilder } from '@/api/builder';
 import { FragerRequester } from '@/api/requester';
 import { FragerMockerBuilder } from '@/api/mock/builder';
@@ -76,6 +76,46 @@ export class Frager {
     }
 
     /**
+     * Create new instance with setting request mode.
+     * @param {RequestMode} mode Request mode.
+     */
+    public mode = (mode: RequestMode): Frager => {
+        return this.cloneWithOverriding({...this._config, mode});
+    }
+
+    /**
+     * Create new instance with setting request priority.
+     * @param {RequestPriority} priority Request priority.
+     */
+    public prioprity = (priority: RequestPriority): Frager => {
+        return this.cloneWithOverriding({...this._config, priority});
+    }
+
+    /**
+     * Create new instance with setting request redirect mode.
+     * @param {RequestRedirect} redirect Request redirect mode.
+     */
+    public redirect = (redirect: RequestRedirect): Frager => {
+        return this.cloneWithOverriding({...this._config, redirect});
+    }
+
+    /**
+     * Create new instance with setting request referrer.
+     * @param {RequestReferrer} referrer Request referrer.
+     */
+    public referrer = (referrer: RequestReferrer): Frager => {
+        return this.cloneWithOverriding({...this._config, referrer});
+    }
+
+    /**
+     * Create new instance with setting request referrer policy.
+     * @param {ReferrerPolicy} policy Referrer policy.
+     */
+    public referrerPolicy = (policy: ReferrerPolicy): Frager => {
+        return this.cloneWithOverriding({...this._config, referrerPolicy: policy});
+    }
+
+    /**
      * Create new instance with setting credentials mode.
      * @param {RequestCredentials} mode Credentials mode.
      */
@@ -89,6 +129,10 @@ export class Frager {
      */
     public cache = (mode: RequestCache): Frager => {
         return this.cloneWithOverriding({...this._config, cache: mode});
+    }
+
+    public keepalive = (keepalive: boolean): Frager => {
+        return this.cloneWithOverriding({...this._config, keepalive});
     }
 
     /**

@@ -194,7 +194,12 @@ export class FragerRequester {
             method,
             body: data,
             headers: {...this._config.headers},
+            mode: this._config.mode,
             cache: this._config.cache,
+            priority: this._config.priority,
+            referrer: this._config.referrer,
+            referrerPolicy: this._config.referrerPolicy,
+            keepalive: this._config.keepalive,
             signal: this._aborter.signal,
             credentials: this._config.credentials,
         });

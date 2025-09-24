@@ -6,7 +6,7 @@
 
 # Class: FragerRequester
 
-Defined in: [requester.ts:13](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L13)
+Defined in: [requester.ts:13](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L13)
 
 HTTP requester class in Frager.
 
@@ -16,7 +16,7 @@ HTTP requester class in Frager.
 
 > **new FragerRequester**(`config`, `aborter`): `FragerRequester`
 
-Defined in: [requester.ts:25](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L25)
+Defined in: [requester.ts:25](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L25)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [requester.ts:25](https://github.com/kkatou7209/frager/blob/3c5e32e0
 
 > **body**(`body`): `FragerRequester`
 
-Defined in: [requester.ts:37](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L37)
+Defined in: [requester.ts:37](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L37)
 
 Set request body.
 
@@ -60,7 +60,7 @@ Request body.
 
 > **connect**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:145](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L145)
+Defined in: [requester.ts:156](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L156)
 
 Request with CONNECT
 
@@ -82,7 +82,7 @@ Request URL.
 
 > **delete**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:112](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L112)
+Defined in: [requester.ts:123](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L123)
 
 Request with DELETE.
 
@@ -104,7 +104,7 @@ Request URL.
 
 > **get**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:79](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L79)
+Defined in: [requester.ts:79](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L79)
 
 Request with GET.
 
@@ -126,7 +126,7 @@ Request URL.
 
 > **head**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:123](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L123)
+Defined in: [requester.ts:134](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L134)
 
 Request with HEAD.
 
@@ -148,7 +148,7 @@ Request URL.
 
 > **header**(`name`, `value`): `FragerRequester`
 
-Defined in: [requester.ts:55](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L55)
+Defined in: [requester.ts:55](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L55)
 
 Set or replace header.
 
@@ -174,7 +174,7 @@ Header name.
 
 > **headers**(`headers`): `FragerRequester`
 
-Defined in: [requester.ts:67](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L67)
+Defined in: [requester.ts:67](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L67)
 
 Set or replace headers.
 
@@ -196,7 +196,7 @@ Headers to set or replace.
 
 > **options**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:156](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L156)
+Defined in: [requester.ts:167](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L167)
 
 Request with OPTIONS.
 
@@ -218,7 +218,7 @@ Request URL.
 
 > **params**(`params`): `FragerRequester`
 
-Defined in: [requester.ts:46](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L46)
+Defined in: [requester.ts:46](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L46)
 
 Set query parameters.
 
@@ -236,11 +236,33 @@ Query parameters.
 
 ***
 
+### patch()
+
+> **patch**(`url`): `Promise`\<`Response`\>
+
+Defined in: [requester.ts:112](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L112)
+
+Request with PATCH.
+
+#### Parameters
+
+##### url
+
+`string`
+
+Request URL.
+
+#### Returns
+
+`Promise`\<`Response`\>
+
+***
+
 ### post()
 
 > **post**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:90](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L90)
+Defined in: [requester.ts:90](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L90)
 
 Request with POST.
 
@@ -262,7 +284,7 @@ Request URL.
 
 > **put**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:101](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L101)
+Defined in: [requester.ts:101](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L101)
 
 Request with PUT.
 
@@ -284,7 +306,7 @@ Request URL.
 
 > **trace**(`url`): `Promise`\<`Response`\>
 
-Defined in: [requester.ts:134](https://github.com/kkatou7209/frager/blob/3c5e32e0935b97da6bcb5b67d12b4a50f45b0e7e/lib/api/requester.ts#L134)
+Defined in: [requester.ts:145](https://github.com/kkatou7209/frager/blob/3e44a5ea879bc197bd00a63031eb884a5a2133a6/lib/api/requester.ts#L145)
 
 Request with TRACE.
 
