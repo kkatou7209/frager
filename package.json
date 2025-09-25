@@ -23,6 +23,16 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "http",
+    "client",
+    "fetch",
+    "request",
+    "typescript",
+    "api",
+    "rest",
+    "frager"
+  ],
   "scripts": {
     "build": "tsc && tsc-alias && rolldown -c rolldown.config.ts -o ./dist/index.mjs",
     "clean": "rm -rf ./dist",
