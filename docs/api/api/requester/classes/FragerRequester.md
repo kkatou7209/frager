@@ -1,4 +1,4 @@
-[**frager v0.2.0**](../../../README.md)
+[**frager v1.0.0**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: FragerRequester
 
-Defined in: [api/requester.ts:13](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L13)
+Defined in: [api/requester.ts:13](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L13)
 
 HTTP requester class in Frager.
 
@@ -16,7 +16,7 @@ HTTP requester class in Frager.
 
 > **new FragerRequester**(`config`, `aborter`): `FragerRequester`
 
-Defined in: [api/requester.ts:25](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L25)
+Defined in: [api/requester.ts:25](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L25)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [api/requester.ts:25](https://github.com/kkatou7209/frager/blob/25da
 
 > **body**(`body`): `FragerRequester`
 
-Defined in: [api/requester.ts:37](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L37)
+Defined in: [api/requester.ts:37](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L37)
 
 Set request body.
 
@@ -60,7 +60,7 @@ Request body.
 
 > **connect**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:156](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L156)
+Defined in: [api/requester.ts:156](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L156)
 
 Request with CONNECT
 
@@ -82,7 +82,7 @@ Request URL.
 
 > **delete**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:123](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L123)
+Defined in: [api/requester.ts:123](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L123)
 
 Request with DELETE.
 
@@ -104,7 +104,7 @@ Request URL.
 
 > **get**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:79](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L79)
+Defined in: [api/requester.ts:79](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L79)
 
 Request with GET.
 
@@ -126,7 +126,7 @@ Request URL.
 
 > **head**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:134](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L134)
+Defined in: [api/requester.ts:134](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L134)
 
 Request with HEAD.
 
@@ -148,7 +148,7 @@ Request URL.
 
 > **header**(`name`, `value`): `FragerRequester`
 
-Defined in: [api/requester.ts:55](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L55)
+Defined in: [api/requester.ts:55](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L55)
 
 Set or replace header.
 
@@ -174,7 +174,7 @@ Header name.
 
 > **headers**(`headers`): `FragerRequester`
 
-Defined in: [api/requester.ts:67](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L67)
+Defined in: [api/requester.ts:67](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L67)
 
 Set or replace headers.
 
@@ -196,7 +196,7 @@ Headers to set or replace.
 
 > **options**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:167](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L167)
+Defined in: [api/requester.ts:167](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L167)
 
 Request with OPTIONS.
 
@@ -218,7 +218,7 @@ Request URL.
 
 > **params**(`params`): `FragerRequester`
 
-Defined in: [api/requester.ts:46](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L46)
+Defined in: [api/requester.ts:46](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L46)
 
 Set query parameters.
 
@@ -240,7 +240,7 @@ Query parameters.
 
 > **patch**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:112](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L112)
+Defined in: [api/requester.ts:112](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L112)
 
 Request with PATCH.
 
@@ -262,7 +262,7 @@ Request URL.
 
 > **post**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:90](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L90)
+Defined in: [api/requester.ts:90](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L90)
 
 Request with POST.
 
@@ -284,7 +284,7 @@ Request URL.
 
 > **put**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:101](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L101)
+Defined in: [api/requester.ts:101](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L101)
 
 Request with PUT.
 
@@ -306,7 +306,7 @@ Request URL.
 
 > **trace**(`url`): `Promise`\<`Response`\>
 
-Defined in: [api/requester.ts:145](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/requester.ts#L145)
+Defined in: [api/requester.ts:145](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/requester.ts#L145)
 
 Request with TRACE.
 

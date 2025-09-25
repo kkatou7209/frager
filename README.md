@@ -78,6 +78,7 @@ const frager = Frager.create()
 - GET
 - POST
 - PUT
+- PATH
 - DELETE
 - HEAD
 - TRACE

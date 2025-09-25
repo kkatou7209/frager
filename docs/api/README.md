@@ -1,4 +1,4 @@
-**frager v0.2.0**
+**frager v1.0.0**
 
 ***
 
@@ -82,6 +82,7 @@ const frager = Frager.create()
 - GET
 - POST
 - PUT
+- PATH
 - DELETE
 - HEAD
 - TRACE

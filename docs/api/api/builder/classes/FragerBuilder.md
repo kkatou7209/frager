@@ -1,4 +1,4 @@
-[**frager v0.2.0**](../../../README.md)
+[**frager v1.0.0**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: FragerBuilder
 
-Defined in: [api/builder.ts:9](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L9)
+Defined in: [api/builder.ts:9](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L9)
 
 Builder of Frager.
 
@@ -26,7 +26,7 @@ Builder of Frager.
 
 > **after**(`callback`): `FragerBuilder`
 
-Defined in: [api/builder.ts:132](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L132)
+Defined in: [api/builder.ts:132](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L132)
 
 Register callback after each request.
 
@@ -46,7 +46,7 @@ Register callback after each request.
 
 > **base**(`url`): `FragerBuilder`
 
-Defined in: [api/builder.ts:16](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L16)
+Defined in: [api/builder.ts:16](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L16)
 
 Set base URL of all requests.
 
@@ -66,7 +66,7 @@ Set base URL of all requests.
 
 > **before**(`callback`): `FragerBuilder`
 
-Defined in: [api/builder.ts:124](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L124)
+Defined in: [api/builder.ts:124](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L124)
 
 Register callback before each request.
 
@@ -86,7 +86,7 @@ Register callback before each request.
 
 > **build**(): [`Frager`](../../frager/classes/Frager.md)
 
-Defined in: [api/builder.ts:140](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L140)
+Defined in: [api/builder.ts:140](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L140)
 
 Create new Frager instance with configured settings.
 
@@ -100,7 +100,7 @@ Create new Frager instance with configured settings.
 
 > **cache**(`mode`): `FragerBuilder`
 
-Defined in: [api/builder.ts:63](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L63)
+Defined in: [api/builder.ts:63](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L63)
 
 Set cache mode.
 
@@ -120,7 +120,7 @@ Set cache mode.
 
 > **credentials**(`mode`): `FragerBuilder`
 
-Defined in: [api/builder.ts:55](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L55)
+Defined in: [api/builder.ts:55](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L55)
 
 Set credentials mode.
 
@@ -140,7 +140,7 @@ Set credentials mode.
 
 > **enableMock**(): `FragerBuilder`
 
-Defined in: [api/builder.ts:116](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L116)
+Defined in: [api/builder.ts:116](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L116)
 
 Enable mocking.
 
@@ -154,7 +154,7 @@ Enable mocking.
 
 > **header**(`name`, `value`): `FragerBuilder`
 
-Defined in: [api/builder.ts:24](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L24)
+Defined in: [api/builder.ts:24](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L24)
 
 Set new header.
 
@@ -178,7 +178,7 @@ Set new header.
 
 > **headers**(`headers`): `FragerBuilder`
 
-Defined in: [api/builder.ts:35](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L35)
+Defined in: [api/builder.ts:35](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L35)
 
 Set new headers.
 
@@ -198,7 +198,7 @@ Set new headers.
 
 > **keepalive**(`keepalive`): `FragerBuilder`
 
-Defined in: [api/builder.ts:108](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L108)
+Defined in: [api/builder.ts:108](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L108)
 
 Set keepalive flag.
 
@@ -218,7 +218,7 @@ Set keepalive flag.
 
 > **mocker**(`mocker`): `FragerBuilder`
 
-Defined in: [api/builder.ts:145](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L145)
+Defined in: [api/builder.ts:145](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L145)
 
 Set mocker instance.
 
@@ -238,7 +238,7 @@ Set mocker instance.
 
 > **mode**(`mode`): `FragerBuilder`
 
-Defined in: [api/builder.ts:47](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L47)
+Defined in: [api/builder.ts:47](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L47)
 
 Set request mode.
 
@@ -260,7 +260,7 @@ Request mode.
 
 > **priority**(`priority`): `FragerBuilder`
 
-Defined in: [api/builder.ts:72](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L72)
+Defined in: [api/builder.ts:72](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L72)
 
 Set request priority.
 
@@ -282,7 +282,7 @@ Request priority.
 
 > **redirect**(`redirect`): `FragerBuilder`
 
-Defined in: [api/builder.ts:81](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L81)
+Defined in: [api/builder.ts:81](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L81)
 
 Set request redirect mode.
 
@@ -304,7 +304,7 @@ Request redirect mode.
 
 > **referrer**(`referrer`): `FragerBuilder`
 
-Defined in: [api/builder.ts:90](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L90)
+Defined in: [api/builder.ts:90](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L90)
 
 Set request referrer.
 
@@ -326,7 +326,7 @@ Request referrer.
 
 > **referrerPolicy**(`policy`): `FragerBuilder`
 
-Defined in: [api/builder.ts:99](https://github.com/kkatou7209/frager/blob/25da44507e44e35eaf72e7a7917a8e5de25272a7/lib/api/builder.ts#L99)
+Defined in: [api/builder.ts:99](https://github.com/kkatou7209/frager/blob/491d0c84b17cb650ad82291d75ba89f1fb98e121/lib/api/builder.ts#L99)
 
 Set referrer policy.
 

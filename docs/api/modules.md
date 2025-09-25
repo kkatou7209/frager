@@ -1,8 +1,8 @@
-[**frager v0.2.0**](README.md)
+[**frager v1.0.0**](README.md)
 
 ***
 
-# frager v0.2.0
+# frager v1.0.0
 
 ## Modules
 
